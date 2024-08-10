@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "rag_with_llamaindex"
+version = "0.1.0"
+description = "RAG Pipeline With Llamaindex framework"
+authors = ["Ghazi Hudeihed <ghazi@hudeihed.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "<2.0.0"
+llama-index = "^0.10.62"
+tqdm = "^4.66.5"
+matplotlib = "^3.9.1.post1"
+seaborn = "^0.13.2"
+pandas = "^2.2.2"
+nltk = "^3.8.1"
+ollama = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.29.5"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
